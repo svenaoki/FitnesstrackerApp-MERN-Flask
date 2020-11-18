@@ -36,10 +36,6 @@ router.put("/:id", (req, res) => {
   Exercise.findByIdAndUpdate(
     req.params.id,
     { $set: req.body }
-    /* { duration: Number(req.body.duration) },
-    { heartRate: Number(req.body.heartRate) },
-    { bodyTemp: Number(req.body.bodyTemp) },
-    { calories: Number(req.body.calories) } */
   )
     .then(() => res.json("Exercise updated"))
     .catch((err) => res.json("error:" + err));
