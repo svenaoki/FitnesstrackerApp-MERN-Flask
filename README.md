@@ -62,10 +62,14 @@ You may delete or edit any of the exercises.
 
 <img src = "/docs/App_1.PNG">
 
-Click on "Create Exercise" to add an Exercise to the database, which automatically re-renders the page and shows the latest addition.
-
-<img src = "/docs/App_2.PNG">
 
 "Predict Calories" runs the Flask model and requires the three variables to be inserted to make a prediction.
 
 <img src = "/docs/App_3.PNG">
+
+
+Click on "Create Exercise" to add an Exercise to the database, which automatically re-renders the page and shows the latest addition.
+
+<img src = "/docs/App_2.PNG">
+
+
