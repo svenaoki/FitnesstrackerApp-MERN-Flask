@@ -60,12 +60,12 @@ All these components are accessible in the application itself.
 Click on the Logo or the "List Exercise" in the navigation bar to and send a get request to mongoDB to list the latest exericses.
 You may delete or edit any of the exercises.
 
-<img src = "/docs/App_1.png">
+<img src = "/docs/App_1.PNG">
 
 Click on "Create Exercise" to add an Exercise to the database, which automatically re-renders the page and shows the latest addition.
 
-<img src = "/docs/App_2.png">
+<img src = "/docs/App_2.PNG">
 
 "Predict Calories" runs the Flask model and requires the three variables to be inserted to make a prediction.
 
-<img src = "/docs/App_3.png">
+<img src = "/docs/App_3.PNG">
