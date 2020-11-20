@@ -57,16 +57,15 @@ In the frontend folder is the ReactJS app with four components:
 
 All these components are accessible in the application itself.
 
-Click on "Choose file" and upload your cat or dog image
+Click on the Logo or the "List Exercise" in the navigation bar to and send a get request to mongoDB to list the latest exericses.
+You may delete or edit any of the exercises.
 
-<img src = "/docs/FrontEndtool.png">
+<img src = "/docs/App_1.png">
 
-Click on "Run CNN" to request probabilities on whether it is a dog or a cat
+Click on "Create Exercise" to add an Exercise to the database, which automatically re-renders the page and shows the latest addition.
 
-<img src = "/docs/FrontEndtool2.png">
+<img src = "/docs/App_2.png">
 
-## Takeaways
+"Predict Calories" runs the Flask model and requires the three variables to be inserted to make a prediction.
 
-PyTorch has a steeper learning curve than for example Keras but it becomes more intuitiv after a while. Additonally, with PyTorch Lightning being launched users will get a similar experience as compared to Keras. If you therefore compare PyTorch with Tensorflow, PyTorch is winning in my opinion. It is just more pythonic.
-Furthermore, debugging is a delight especially when you create your own neural network from scratch.
-If there is one minus point, it is that PyTorch is rigorous about the data type (float, int, long...) but so is Tensorflow.
+<img src = "/docs/App_3.png">
